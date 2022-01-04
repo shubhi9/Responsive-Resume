@@ -96,5 +96,15 @@ body{
 }
 .info{
     font-weight: 500;
-    color: rgb(23, 1, 26);
+    color: rgb(59, 59, 59);
+}
+@media screen and (max-width: 674px){
+    .main-content{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media screen and (max-width: 630px){
+    .main-content{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
